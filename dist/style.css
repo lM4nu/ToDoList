@@ -1,0 +1,71 @@
+body {
+    margin:0;
+    padding:0;
+    border:0;
+    display:flex;
+}
+
+.hidden{
+    display: none;
+}
+
+.panel {
+    width:30%;
+    height:100vh;
+    background-color: grey;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lists-add-btn{
+    margin-bottom:10%;
+    font-size:200%;
+}
+.panel-btn {
+    font-size:200%;
+}
+
+.lists{
+    display:flex;
+    flex-direction: column;
+    align-items: center;;
+}
+
+.content {
+    width:100%;
+    padding:10% 5% 10%;
+
+}
+
+th {
+    text-align:left;
+}
+
+tr {
+    height:3rem;
+}
+
+.todo-h{
+    width:15%;
+}
+.desc-h{
+    width:65%;
+}
+.completed-h{
+    width:20%;
+}
+
+table {
+   width:100%;
+   border-style:solid;
+   border-color:black;
+}
+
+.input-table{
+    height:4rem;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
