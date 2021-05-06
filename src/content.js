@@ -14,10 +14,9 @@ const content = ( () => {
     const lists = localStorage.getItem('lists') ? JSON.parse(localStorage.getItem('lists')) : [] ;
 
     const save = () =>{
-        console.log('guardado');
-        console.log(lists);
         localStorage.setItem('lists',JSON.stringify(content.lists));
     }
+
 
     return {
         lists,
