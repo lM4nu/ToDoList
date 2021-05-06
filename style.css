@@ -59,8 +59,6 @@ tr {
 
 table {
    width:100%;
-   border-style:solid;
-   border-color:black;
 }
 
 .input-table{
@@ -68,4 +66,37 @@ table {
     display:flex;
     align-items:center;
     justify-content: space-around;
+}
+
+.modal-window {
+    position:absolute;
+    width: 50%;
+    height:55%;
+    background-color: brown;
+    border-style:solid;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.overlay{
+    background-color: black;
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity: 0.25;
+}
+
+.modal{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;;
+
+}
+.close-modal{
+    position:absolute;
+    width:5%;
+    left:95%;
 }
